@@ -15,3 +15,12 @@ do you think it offers?
 The staging area is between the other two. 
 Its is used as a box, where you can put everyhing you want to comit
 together, and later decide if it will really be commited or not.
+
+
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+wee can use diff to check if the file on the stage area have a logical change in comparison with the file in the repository.
+
