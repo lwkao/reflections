@@ -33,3 +33,26 @@ wee can use diff to check if the file on the stage area have a logical change in
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 When you have to make a change in a file that is not the head, but you dont want to change the current head. For exemple if you are doing a test in the head file, but you want to change the main file without changing the experiment.
+
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+By drawing the way from the most recent to the oldest, its easier to 
+see which way the commit line will follow.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+We will merge the codes of both files in those branches. Git have a funtion which do it correctly.
+If we merge master with any other branch, theres no more need for the other branch, once all of its files will now be reachable by the master branch. So the tip will now be the merged files.
+
+
+
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+When you use GIT to autommatically merge two comitts, the process is a lot faster and easier. If you are sure that both files have changes which dont affect one another, this is the best way. But changes which could be detected as easy as ever for us manually can cause a bug on Git. In this case, is necessary to do that manually. So, its a better idea to first try to merge the files automatically, and if there are conflicts, solving them manually.
