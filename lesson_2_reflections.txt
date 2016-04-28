@@ -5,3 +5,13 @@ which are necessary to keep track of the older files.
 Commits are NOT automaically made. we have to do it by ourselves.
 We need to initialize the repository, or else it will be treated as a 
 regular folder from windowns (no version control).
+
+
+
+
+How is the staging area different from the working directory and the repository? What value 
+do you think it offers?
+
+The staging area is between the other two. 
+Its is used as a box, where you can put everyhing you want to comit
+together, and later decide if it will really be commited or not.
