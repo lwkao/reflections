@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+The programn creates a hidden folder, where it will keep all files
+which are necessary to keep track of the older files.
+Commits are NOT automaically made. we have to do it by ourselves.
+We need to initialize the repository, or else it will be treated as a 
+regular folder from windowns (no version control).
